@@ -1,11 +1,4 @@
-![display](https://repository-images.githubusercontent.com/432807613/fe6d8678-4642-4b0a-815e-e97bcebe57ea)
-
-# Spring boot 2 - JPA DataTable
-
 This guide walks you through the process of building a Spring boot 2 application that uses JPA DataTable.
-
-### Check the [demo](https://dk-springboot-jpa-datatable.herokuapp.com/)
-### Check this tutorial on my [Blog](https://dev.djamelkorei.me/spring-boot-jpa-datatable) 👋
 
 ## What You Will build
 You will build a Spring Boot application with quick datatable fully configurable.
@@ -334,6 +327,10 @@ http://localhost:8080
 ## Summary
 
 Congratulations 🎉 ! You've created quick datatable using Spring Boot 2, JPA & DataTable
+
+## Github
+The tutorial can be found here on [GitHub](https://github.com/nonestack-blog/spring-data-jpa-datatable) 👋
+
 ## Blog
 
-Check new tutorials on my [Blog](https://dev.djamelkorei.me/) 👋
+Check new tutorials on [nonestack](https://www.nonestack.com) 👋
