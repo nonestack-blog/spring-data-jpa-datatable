@@ -1,4 +1,5 @@
 ![display](https://repository-images.githubusercontent.com/702240645/e121162e-0277-43a0-b292-431a3045bd69)
+
 This guide walks you through the process of building a Spring Boot application that uses JPA DataTable.
 
 ## What You Will build
