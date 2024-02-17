@@ -2,15 +2,15 @@
 
 This guide walks you through the process of building a Spring Boot application that uses JPA DataTable.
 
-## What You Will build
+## <a name="what-you-will-build" aria-label="what-you-will-build" id="what-you-will-build" href="#what-you-will-build"></a>What You Will build
 You will build a Spring Boot application with quick datatable fully configurable.
 
-## What You Need
+## <a name="what-you-need" aria-label="what-you-need" id="what-you-need" href="#what-you-need"></a>What You Need
 - A favorite text editor or IDE
 - JDK 1.8 or later
 - Gradle 4+ or Maven 3.2+
 
-## Setup Project With Spring Initializr   
+## <a name="setup-project-with-spring-initializr" aria-label="setup-project-with-spring-initializr" id="setup-project-with-spring-initializr" href="#setup-project-with-spring-initializr"></a>Setup Project With Spring Initializr   
 
 - Navigate to https://start.spring.io.
 
@@ -28,7 +28,7 @@ You will build a Spring Boot application with quick datatable fully configurable
 
 Unzip the Downloaded Zip and open the Project using your favorite text editor or IDE
 
-## DataTable Dependency
+## <a name="data-table-dependency" aria-label="data-table-dependency" id="data-table-dependency" href="#data-table-dependency"></a>DataTable Dependency
 Add the following Maven snippet to the `pom.xml`
 ```xml
 <dependency>
@@ -38,7 +38,7 @@ Add the following Maven snippet to the `pom.xml`
 </dependency>
 ```
 
-## Create the Backend Ressource
+## <a name="create-the-backend-resource" aria-label="create-the-backend-resource" id="create-the-backend-resource" href="#create-the-backend-resource"></a>Create the Backend Resource
 Define the User Entity
 ```java
 @Entity(name = "users")
@@ -153,7 +153,7 @@ When runing the application, by default the `data.sql` will be executed before t
 spring.jpa.defer-datasource-initialization=true
 ```
 
-## Create the Frontend View
+## <a name="create-the-frontend-view" aria-label="create-the-frontend-view" id="create-the-frontend-view" href="#create-the-frontend-view"></a>Create the Frontend View
 Create the the `index.html` under the `resources\templates` folder
 ```html
 <!DOCTYPE HTML>
@@ -239,7 +239,7 @@ Create the the `index.html` under the `resources\templates` folder
 </body>
 </html>
 ```
-Create the the `jquery.spring-friendly.js` under the `resources\static` folder
+Create the `jquery.spring-friendly.js` under the `resources\static` folder
 ```js
 // From https://github.com/jquery/jquery/blob/master/src/serialize.js
 // Overrides data serialization to allow Spring MVC to correctly map input parameters : column[0][data] now becomes column[0].data
@@ -316,7 +316,7 @@ Create the the `jquery.spring-friendly.js` under the `resources\static` folder
     };
 })(jQuery);
 ```
-## Test
+## <a name="test" aria-label="test" id="test" href="#test"></a>Test
 Run the Java application as a `SpringBootApplication` with your IDE or use the following command line
 
 ```shell
@@ -326,13 +326,13 @@ Now, you can open the URL below on your browser, default port is `8080` you can 
 ```
 http://localhost:8080
 ```
-## Summary
+## <a name="summary" aria-label="summary" id="summary" href="#summary"></a>Summary
 
 Congratulations 🎉 ! You've created quick datatable using Spring Boot, JPA & DataTable
 
-## Github
+## <a name="github" aria-label="github" id="github" href="#github"></a>Github
 The tutorial can be found here on [GitHub](https://github.com/nonestack-blog/spring-data-jpa-datatable) 👋
 
-## Blog
+## <a name="blog" aria-label="blog" id="blog" href="#blog"></a> Blog
 
 Check new tutorials on [nonestack](https://www.nonestack.com) 👋
